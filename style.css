@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;0,500;0,700;0,900;1,100&family=Fira+Sans:wght@100;200;600&family=Lobster&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,700;1,900&family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;1,900&family=Oxygen:wght@300;400;700&family=Poppins:wght@100;200;400&family=Quicksand:wght@300;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;0,500;0,700;0,900;1,100&family=Fira+Sans:wght@100;200;600&family=Lobster&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,700;1,900&family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;1,900&family=Oxygen:wght@300;400;700&family=Poppins:wght@100;200;400&family=Quicksand:wght@300;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,500&display=swap');
 
 :root{
-          --green:#016728;
-          --black:#334;
+          --green:#006829;
+          --black:#141616;
           --light-color:#777;
-          --text-shadow:.4rem .4rem 0 rgba(0,0,0,.2);
+          --text-shadow:.2rem .2rem 0 rgba(0,0,0,.2);
           --border:.2rem solid var(--green);
 }
 /**/
@@ -23,7 +23,7 @@
           box-sizing: border-box;
           outline: none;
           border: none;
-          text-transform: capitalize;
+          /* text-transform: capitalize; */ 
           transition: all .2s ease-out;
           text-decoration: none;
 }
@@ -41,7 +41,7 @@ section{
 /*  */
 
 .header{
-          padding: 1.5rem 7%;
+          padding: 2rem 9%;
           position: fixed;
           top: 0;
           left: 0;
@@ -52,34 +52,30 @@ section{
           display: flex;
           justify-content: space-between;
           background: #fff;
-          height: 98px;
+
 }
-/*  */
+
 .header .logo{
-          font-size: 1rem;
-          margin-left: -75%;
-}
-/*  */
-.header .logo i{
-          color: var(--green);
+          font-size: 1.9rem;
+          color: var(--black);
 }
 /*  */
 .header .navbar a{
           font-size: 1.7rem;
           color: var(--light-color);
           margin-left: 2rem;
-          font-weight: 500;
+
 }
 /*  */
 .header .navbar a:hover{
-          color: #016728;               
+          color: #16a086;               
 }
 /*  */
 #menu-btn{
           font-size: 2.5rem;
           border-radius: .5rem;
           background: #eee;
-          color: #016728;
+          color: #16a086;
           padding: 1rem 1.5rem;
           cursor: pointer;
           display: none;
@@ -104,16 +100,16 @@ section{
           flex: 1 1 45rem;
 }
 .home .container h3{
-          font-size: 7.5rem;
+          font-size: 4.5rem;
+          color: var(--black);
           line-height: 1.8;
-          margin-top: 280px;
-          color: #016728;
-          font-family:inherit;
+          text-shadow: var(--text-shadow);
+          margin-top: 150px;
 }
 
 .home .container p{
-          font-size: 1.9rem;
-          color: rgba(0, 0, 0, 0.678);
+          font-size: 1.7rem;
+          color: var(--light-color);
           line-height: 1.8;
           padding: 1rem 0;
 }
@@ -129,6 +125,7 @@ section{
           color: var(--green);
           cursor: pointer;
           font-size: 1.7rem;
+
 }
 .btn span{
           padding: .7rem 1rem;
@@ -142,6 +139,7 @@ section{
 .btn:hover{
           background: var(--green);
           color: #fff;
+
 }
 
 .btn:hover span{
@@ -178,16 +176,15 @@ section{
           }
           .container h3{
                     font-size: 20px;
-                    margin-top: -30px;
+
+
           }
           section{
                     padding: 2rem;
           }
-          h3{
-                    margin-top: -80px;
-          }
-                    
           
+
+
 }
 
 @media (max-width:768px){
@@ -226,11 +223,9 @@ section{
           .container h3{
                     font-size: 20px;
           }
-          h3{
-                    margin-top: -80px;
-          }
-                    
-                    
+             
+          
+
 
 
 }
@@ -245,9 +240,7 @@ section{
           .container h3{
                     font-size: 20px;
           }
-          h3{
-                    margin-top: -80px;
-          }
-                    
-          
+
+
+
 }
