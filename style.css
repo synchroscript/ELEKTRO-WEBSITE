@@ -86,7 +86,15 @@ section{
           align-items: center;
           flex-wrap: wrap;
           gap: 1.5rem;
-          padding-top: 10re,;
+          padding-top: 8rem;
+          width: 100%;
+}
+.about{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            padding-top: 13rem;
 }
 /*  */
 .home .image{
@@ -100,7 +108,7 @@ section{
           flex: 1 1 45rem;
 }
 .home .container h3{
-          font-size: 4.5rem;
+          font-size: 5.5rem;
           color: var(--black);
           line-height: 1.8;
           text-shadow: var(--text-shadow);
@@ -148,14 +156,106 @@ section{
           margin-left: 1rem;
 }
 
+.service{
+          background: white;
+          width: 100%;
+          padding: 100px 0px;
+}
 
+.container h2{
+          color: black;
+          font-size: 45px;
+          width: 1130px;
+          margin: 30px auto;
+          text-align: center;
+}
 
+.box{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 400px;
+}
 
+.card{
+          height: 385px;
+          width: 340px;
+          padding: 20px 35px;
+          background: #006829;
+          border-radius: 20px;
+          margin: 15px;
+          position: relative;
+          overflow: hidden;
+          text-align: center;
+}
 
+.card i{
+          font-size: 30px;
+          display: block;
+          text-align: center;
+          margin: 25px 0px;
+          color: black;
+}
 
+h5{
+          color: white;
+          font-size: 23px;
+          margin-bottom: 15px;
+}
 
+.pra{
+          color: black;
+          font-size: 14px;
+          line-height: 17px;
+          margin-bottom: 25px;
+          text-align: left;
+          font-weight: 500 ;
+}
 
+.card .button{
+          background-color: white;
+          color: #006829;
+          text-decoration: none;
+          border: 2px solid transparent;
+          font-weight: bold;
+          padding: 9px 22px;
+          border-radius: 30px;
+          transition: .4s;
+          margin-top: 20px;
+}
 
+.card .button:hover{
+          background-color: transparent;
+          border: 2px solid black;
+          cursor: pointer;
+          color: white;
+}
+.fotot{
+          width: 100%;
+          background-color: #006829;
+          color: black;
+          text-align: center;
+         
+         
+         
+}
+.para{
+          font-size: 22px;
+          margin-top: 12px;
+          padding: 10px;
+}
+.button-two{
+          background-color: white;
+          color: #006829;
+          text-decoration: none;
+          border: 2px solid transparent;
+          font-weight: bold;
+          padding: 10px 24px;
+          border-radius: 30px;
+          transition: .4s;
+          margin-top: 23px;
+
+}
 
 
 
@@ -182,7 +282,22 @@ section{
           section{
                     padding: 2rem;
           }
+          .service{
+                    flex-direction: column;
+          }
+          .container h2{
+                    text-align: center;
+                    font-size: 27px;
+                    width: 100%;
+          }
+                    
+          .box{
+                    display: block;
+          }
           
+          
+          
+
 
 
 }
@@ -223,7 +338,26 @@ section{
           .container h3{
                     font-size: 20px;
           }
-             
+          .service{
+                    flex-direction: column;
+          }
+          .container h2{
+                    text-align: center;
+                    font-size: 27px;
+                    width: 100%;
+          }
+          .box{
+                    display: block;
+          }
+          
+        
+        
+        
+        
+          
+          
+          
+          
           
 
 
@@ -241,6 +375,20 @@ section{
                     font-size: 20px;
           }
 
+          .service{
+                    flex-direction: column;
+          }
+          .container h2{
+                    text-align: center;
+                    font-size: 27px;
+                    width: 100%;
+          }
 
+          .box{
+                    display: block;
+          }
+          
+
+          
 
 }
